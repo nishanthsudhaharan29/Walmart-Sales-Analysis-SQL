@@ -33,12 +33,12 @@ The dataset used in this project is obtained from the Kaggle Walmart Sales Forec
 | `unit_price`          | Price of each product sold                                    | DECIMAL(10, 2)   |
 | `quantity`            | Quantity of the product sold                                  | INT              |
 | `VAT`                 | Value-added tax on the purchase                               | FLOAT(6, 4)      |
-| `total`               | Total cost of the purchase (including tax)                     | DECIMAL(10, 2)   |
+| `total`               | Total cost of the purchase (including tax)                    | DECIMAL(10, 2)   |
 | `date`                | Date when the purchase was made                               | DATE             |
 | `time`                | Time when the purchase was made                               | TIMESTAMP        |
-| `payment_method`      | Payment method used for the transaction                        | DECIMAL(10, 2)   |
+| `payment_method`      | Payment method used for the transaction                       | DECIMAL(10, 2)   |
 | `cogs`                | Cost of Goods Sold                                            | DECIMAL(10, 2)   |
-| `gross_margin_percentage` | Gross margin percentage                                    | FLOAT(11, 9)     |
+| `gross_margin_percentage` | Gross margin percentage                                  | FLOAT(11, 9)     |
 | `gross_income`        | Gross income (total revenue - cost of goods sold)             | DECIMAL(10, 2)   |
 | `rating`              | Customer satisfaction rating                                  | FLOAT(2, 1)      |
 
@@ -70,8 +70,7 @@ This analysis can be used to:
 
 ## Tools and Technologies
 
-- **Data Analysis**: Python (Pandas, NumPy)
-- **Data Visualization**: Power BI, Matplotlib
+- **Data Analysis**: SQL
 - **Dataset**: Walmart sales transaction dataset from Kaggle
 
 ---
@@ -84,5 +83,3 @@ This analysis can be used to:
 - **Real-Time Analytics**: Implement real-time analysis using streaming data to improve operational decision-making.
 
 ---
-
-
